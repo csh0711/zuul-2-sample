@@ -7,7 +7,8 @@ import com.netflix.zuul.netty.filter.ZuulEndPointRunner
 import info.novatec.zuul2.filters.endpoint.NotFoundEndpoint
 
 /**
- * Routes configuration.
+ * Routing filter on base of HttpInboundSyncFilter.<br/>
+ * URIs of the proxied backend services are defined in {@code application.properties}
  */
 class Routes extends HttpInboundSyncFilter {
 

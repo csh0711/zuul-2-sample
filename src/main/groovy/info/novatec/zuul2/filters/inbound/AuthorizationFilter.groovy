@@ -6,7 +6,10 @@ import info.novatec.zuul2.filters.endpoint.BadRequestEndpoint
 import io.netty.handler.codec.http.cookie.Cookie
 import org.apache.http.HttpHeaders
 
-
+/**
+ * HttpInboundSyncFilter that extracts the 'customer-Id' cookie and adds its value to the
+ * request's Authorization header.
+ */
 class AuthorizationFilter extends HttpInboundSyncFilter {
 
     @Override
