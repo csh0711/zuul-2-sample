@@ -1,7 +1,8 @@
 # Example edge service with Netflix Zuul 2
 
-This repository provides a simple Zuul 2 edge service example. It is based on the sample project provided by the[Netflix OSS Zuul sample](https://github.com/Netflix/zuul/tree/2.1/zuul-sample). 
+This repository provides a simple Zuul 2 edge service example. It is based on the sample project provided by the [Netflix OSS Zuul sample](https://github.com/Netflix/zuul/tree/2.1/zuul-sample). 
 
+For detailled information please see our blog post: https://www.novatec-gmbh.de/en/blog/api-gateways-an-evaluation-of-zuul-2/
 
 ## Filters
 
